@@ -37,7 +37,7 @@ and embeds a **GPay/UPI payment QR code** directly into the downloadable **PDF**
 
 ## 🚀 Live Demo
 
-**[🌐 View on Vercel →](https://your-project-name.vercel.app)**  
+**[🌐 View on Vercel →](https://gst-invoice-mate-khzw9nncw-harshs-projects-0f146866.vercel.app/)**  
 (Replace the link above with your actual deployment URL.)
 
 ---
@@ -60,5 +60,4 @@ and embeds a **GPay/UPI payment QR code** directly into the downloadable **PDF**
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+
