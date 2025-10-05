@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+# 🇮🇳 GST Invoice Generator for Freelancers
 
-## Project info
+A modern, browser-based **GST Invoice Generator** for Indian freelancers — built with  
+**Vite + React + TypeScript + Tailwind CSS + shadcn-ui**.
 
-**URL**: https://lovable.dev/projects/adb9e92e-75d0-4c9e-8d12-bac391df0ca9
+It generates GST-compliant invoices with **auto tax calculation (CGST/SGST/IGST)**,  
+and embeds a **GPay/UPI payment QR code** directly into the downloadable **PDF**.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- 🧾 **GST-Compliant PDF Invoice**
+  - Supplier & Recipient details
+  - HSN/SAC support
+  - Automatic CGST/SGST/IGST calculation
+  - Invoice number, date, and totals
+  - Amount in words
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/adb9e92e-75d0-4c9e-8d12-bac391df0ca9) and start prompting.
+- 💳 **Integrated UPI / GPay QR**
+  - Generates a valid `upi://pay` deep link
+  - Creates a QR that can be scanned in any UPI app
+  - Embeds it inside the PDF near the payment section
 
-Changes made via Lovable will be committed automatically to this repo.
+- ⚡ **Modern Frontend Stack**
+  - **Vite** for lightning-fast builds
+  - **React + TypeScript** for maintainable UI
+  - **Tailwind CSS + shadcn-ui** for sleek components
+  - 100% client-side (no backend required)
 
-**Use your preferred IDE**
+- 🧠 **Smart UI**
+  - Add or remove invoice items dynamically
+  - Real-time tax and total calculations
+  - Works offline after loading once
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Live Demo
 
-Follow these steps:
+**[🌐 View on Vercel →](https://your-project-name.vercel.app)**  
+(Replace the link above with your actual deployment URL.)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+| Layer | Tool |
+|-------|------|
+| Build Tool | [Vite](https://vitejs.dev/) |
+| Language | [TypeScript](https://www.typescriptlang.org/) |
+| Framework | [React](https://react.dev/) |
+| Styling | [Tailwind CSS](https://tailwindcss.com/) |
+| UI Components | [shadcn/ui](https://ui.shadcn.com/) |
+| PDF Generator | [html2pdf.js](https://github.com/eKoopmans/html2pdf.js) / [jsPDF](https://github.com/parallax/jsPDF) |
+| QR Generator | [qrcodejs](https://github.com/davidshimjs/qrcodejs) |
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## ⚙️ Setup & Development
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/adb9e92e-75d0-4c9e-8d12-bac391df0ca9) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### 1. Clone the repository
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
