@@ -60,4 +60,4 @@ and embeds a **GPay/UPI payment QR code** directly into the downloadable **PDF**
 
 ### 1. Clone the repository
 ```bash
-
+https://github.com/harshsharma1506/gst-invoice-mate.git
